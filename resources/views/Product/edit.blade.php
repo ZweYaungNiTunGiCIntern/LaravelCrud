@@ -27,8 +27,9 @@
                                 <label  class="form-label">Quantity</label>
                                 <input type="quantity" name="quantity" class="form-control" value="{{ $product->quantity }}">
                             </div>
-                            <div class="mb-4 text-center">
-                                <button class="btn btn-lg btn-outline-primary">Update</button>
+                            <div class="mb-4">
+                                <a href="{{ route('product.index') }}" class="btn btn-outline-dark">Back</a>
+                                <button class="btn btn-outline-primary">Update</button>
                             </div>
                         </form>
                     </div>

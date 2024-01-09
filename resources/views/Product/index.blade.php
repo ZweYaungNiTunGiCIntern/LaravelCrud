@@ -3,10 +3,16 @@
 
 @section('content')
 <div class="container">
+
     <div class="row justify-content-center">
         <div class="col-md-6">
                <div class="card mt-5 shadow">
                 <div class="card-body">
+                <div class="mb-3">
+                    <a href="{{route('product.create')}}" class="btn btn-outline-success">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                </div>
 
                 <table class="table">
                     <thead>
